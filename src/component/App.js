@@ -51,6 +51,8 @@ function App() {
             <NewsContext.Provider value={newsContext}>
                 <Main />
             </NewsContext.Provider>
+
+            test değişimi
         </>
 
 
