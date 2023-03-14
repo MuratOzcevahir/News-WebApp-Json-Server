@@ -1,0 +1,36 @@
+{
+  "NewsData": [
+    {
+      "Title": "Binali yazı yazmayı öğreniyor",
+      "Content": "üzücü",
+      "Photo": "https://i.sozcucdn.com/wp-content/uploads/2016/09/binali.jpg?w=1200&h=900&mode=crop&scale=both",
+      "LongTitle": "yazamıyor",
+      "Date": "14.03.2023 21:52:43",
+      "id": 1
+    },
+    {
+      "Title": "tayyip erdoğan para dağıttı",
+      "Content": "boş",
+      "Photo": "https://cdn.yeniakit.com.tr/images/news/625/paralarda-erdoganin-resmi-mi-olacak-h1462022529-bfafd2.jpg",
+      "LongTitle": "helal olsun be",
+      "Date": "14.03.2023 21:54:18",
+      "id": 2
+    },
+    {
+      "Title": "aa",
+      "Content": "aa",
+      "Photo": "a",
+      "LongTitle": "aa",
+      "Date": "14.03.2023 21:55:08",
+      "id": 3
+    },
+    {
+      "Title": "a",
+      "Content": "a",
+      "Photo": "aa",
+      "LongTitle": "aa",
+      "Date": "14.03.2023 21:55:30",
+      "id": 4
+    }
+  ]
+}
