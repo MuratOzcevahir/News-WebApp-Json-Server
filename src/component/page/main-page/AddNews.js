@@ -22,26 +22,35 @@ function AddNews() {
 
     return (
         <>
-            <div id="news_form" className='container'>
-                <div className='d-flex flex-column text-center'>
-                    <div>
-                        <input id="title" type="text" name="news" placeholder='Başlık' />
-                    </div>
-                    <div>
-                        <input id="longTitle" type="text" name="news" placeholder='İkinci başlık' />
-                    </div>
-                    <div>
-                        <textarea id="content" name="news" placeholder='İçerik'>
+
+            <div id="news_form" className='container justify-content-center'>
+                <div className='row'>
+                    <div className='col'>
+                        <div className='d-flex flex-column'>
+                            <label >Başlık</label>
+                            <input id="title" type="text" name="news" placeholder='Başlık' />
+                        </div>
+                        <div>
+                            <label >Uzun başlık</label>
+                            <input id="longTitle" type="text" name="news" placeholder='İkinci başlık' />
+                        </div>
+                        <label >İçerik</label>
+
+                        <textarea id="content" name="news" placeholder='örn; gündem değişmiyor' >
                         </textarea>
-                    </div>
-                    <div>
-                        <input id="photo" type="text" name="news" placeholder='Fotoğraf Linki' />
+                        <label >Fotoğraf linki</label>
+
+                        <input id="photo" type="text" name="news" placeholder='örn; http://www.photo.com' />
                     </div>
                 </div>
 
-                <button className=' w-50' onClick={() => { NewsAdded() }}><span>Haber Ekle</span></button>
+
             </div>
-            <div></div></>
+
+            <button className=' w-50' onClick={() => { NewsAdded() }}><span>Haber Ekle</span></button>
+
+
+        </>
     )
 }
 export default AddNews

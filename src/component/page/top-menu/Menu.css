@@ -1,0 +1,32 @@
+#menu_holder  {
+ background-color: rgb(53, 92, 149);
+ border-bottom: 1px solid gray;
+}
+
+#menu_holder a {
+    align-items: center;
+    padding: 0px 15px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 45px;
+    font-weight: 800;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
+
+#menu_holder a:hover {
+    background-color: rgb(102, 143, 206);
+
+
+}
+
+#menu_holder ul {
+    height: 90px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+}
+ 

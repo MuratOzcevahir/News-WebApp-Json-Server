@@ -12,7 +12,6 @@ img {
     }
 
 }
-
 #news_form input::placeholder {
     font-style: italic;
     font-weight: 400;
@@ -22,14 +21,13 @@ img {
     font-style: italic;
     font-weight: 400;
 }
-
+ 
 #news_form input,
 textarea {
-    width: 50%;
+    width: 45%!important;
     height: 50px;
-    margin: 5px;
+    margin: 5px!;
     padding: 0px 10px;
-    text-transform: capitalize;
     font-weight: 500;
     border-radius: 4px;
     border: solid rgb(185, 202, 229) 1px;

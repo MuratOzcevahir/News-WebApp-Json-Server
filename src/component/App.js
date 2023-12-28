@@ -10,7 +10,7 @@ function App() {
     newsContext.deleteNews = (id) => {
         console.log("çaıştı")
         axios
-            .delete("http://localhost:3131/NewsData/" + id)
+            .delete("http://localhost:2020/NewsData/" + id)
             .then(() => {
                 GetAll();
             })
@@ -21,7 +21,7 @@ function App() {
     newsContext.addNews = (newsObj) => {
  
         axios
-            .post("http://localhost:3131/NewsData/", newsObj)
+            .post("http://localhost:2020/NewsData/", newsObj)
             .then((respond) => {
 
                 GetAll()
@@ -34,7 +34,7 @@ function App() {
 
     function GetAll() {
         axios
-            .get("http://localhost:3131/NewsData")
+            .get("http://localhost:2020/NewsData")
             .then((respond) => {
                 setnewsData(respond.data);
 
@@ -52,7 +52,6 @@ function App() {
                 <Main />
             </NewsContext.Provider>
 
-            test değişimi
         </>
 
 
